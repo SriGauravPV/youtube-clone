@@ -1,4 +1,4 @@
-export const api_key='AIzaSyD8gHTGytsEh6sEkJvzxacFqMsc1U2Ii2E';
+export const api_key=API_KEY;
  export const value_converter=(value)=>{
     if(value>=1000000){
         return Math.floor(value/1000000)+" M";
